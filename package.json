@@ -1,5 +1,5 @@
 {
-  "name": "@tranduckhuy/my-package",
+  "name": "@tranduckhuy-test/my-package",
   "version": "1.0.0",
   "description": "",
   "repository": {
@@ -14,7 +14,7 @@
 		"publish:github": "npm publish --registry https://npm.pkg.github.com/ --ignore-scripts"
   },
   "publishConfig": {
-    "tranduckhuy:registry": "https://npm.pkg.github.com"
+    "tranduckhuy-test:registry": "https://npm.pkg.github.com"
   },
   "author": "",
   "license": "ISC"
