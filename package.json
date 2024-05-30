@@ -1,0 +1,14 @@
+{
+  "name": "my-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "publishConfig": {
+    "tranduckhuy:registry": "https://npm.pkg.github.com"
+  },
+  "author": "",
+  "license": "ISC"
+}
