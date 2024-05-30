@@ -9,7 +9,9 @@
 	},
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "publish:npm": "npm publish --registry https://registry.npmjs.org/ --access public --ignore-scripts",
+		"publish:github": "npm publish --registry https://npm.pkg.github.com/ --ignore-scripts"
   },
   "publishConfig": {
     "tranduckhuy:registry": "https://npm.pkg.github.com"
